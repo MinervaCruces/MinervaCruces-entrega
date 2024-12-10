@@ -1,0 +1,143 @@
+.item-detail-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.item-detail-card {
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    max-width: 900px;
+    width: 100%;
+}
+
+.item-detail-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.item-image img.product-image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #8e0058;
+    text-transform:capitalize;
+}
+
+.product-description {
+    font-size: 1rem;
+    color: #8e0058;
+    margin: 1rem 0;
+    font-weight: bold;
+}
+
+.sizes-list {
+    display: flex;
+    gap: 0.5rem;
+    margin: 1rem 0;
+}
+
+.size-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #d647ae;
+    border-radius: 5%;
+    background-color: #ecbcec;
+    color: #d647ae;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.size-item:hover {
+    background-color: #c245c7;
+    color: #fff;
+}
+
+.quantity-controls {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.quantity-button {
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    background-color: #d647adb4;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 10%;
+}
+
+.quantity-button:hover {
+    background-color: #d647ae;
+    color: #fff;
+}
+
+.quantity-button:disabled {
+    background-color: #d647ae;
+    cursor: not-allowed;
+}
+
+.quantity-value {
+    margin: 0 1rem;
+    font-size: 1.25rem;
+    color: #ec54c1;
+}
+
+.product-price,
+.total-price {
+    font-size: 1.5rem;
+    color: #ec54c1;
+    margin: 0.5rem 0;
+}
+
+.add-to-cart-button {
+    padding: 0.5rem 1.5rem;
+    font-size: 1.25rem;
+    background-color: #ecbcec;
+    color: #c400c4;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.add-to-cart-button:hover {
+    background-color: #ec8df1;
+    color: #fff;
+}
+
+.add-to-cart-button.disabled {
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+}
+.product-stock {
+    font-size: 1.1rem;
+    color: #ec54c1; 
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-left: 0;
+}
+
+.product-stock.out-of-stock {
+    color: #dc3545;
+}

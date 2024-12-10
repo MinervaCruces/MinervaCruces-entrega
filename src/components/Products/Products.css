@@ -1,0 +1,16 @@
+.product-page {
+    margin: 0;
+    padding: 0;
+    background-image: url('/fondo.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    min-height: 100vh; 
+}
+
+.container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}

@@ -1,0 +1,39 @@
+.about-page-banner {
+    height: 900px;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+}
+
+.about-page-container {
+    margin: 0 auto;
+    max-width: 1170px;
+    padding: 20px;
+}
+
+.about-page-title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #f37bc5;
+    margin-bottom: 20px;
+}
+
+.about-page-description {
+    font-size: 20px;
+    line-height: 1.8;
+    color:  #d6389a;
+    text-align: justify;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.about-page-image {
+    margin-top: 1rem;
+    width: 250px;
+    height: auto;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+}
